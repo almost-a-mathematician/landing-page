@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(175, 207, 246);
+    color: rgb(255, 255, 255);
+}
+
+.games_name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size:xx-large;    
+}
+
+.rightimg{
+    float: right; 
+    margin: 7px 7px 7px 0; 
+}
+
+.text{
+    font-size: 23px;
+    font-family:sans-serif;      
+}
+
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
